@@ -16,7 +16,7 @@ body {}
 }
 
 .line {}
-/* .line[alternate=even] { background-color: #464646; } */
+.line[alternate=even] {}
 .line[alternate=odd] {}
 .line[highlight=true] {}
 
@@ -33,7 +33,7 @@ body {}
 .message[type=system], .message[type=join], .message[type=kick],
 .message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
 .message[type=topic], .message[type=invite], .message[type=wallops] {
-  color: #65b042;
+  color: #5e5e5e;
 }
 .message[type=reply] { color: #509036; }
 
